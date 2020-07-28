@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+body, div>p, p#infoNextButtons, div#personalInfo label input+span {
+	margin: 0;
+}
+
+form#form {
+	width: 730px;
+	height: 500px;
+	border: 2px solid rgba(178, 229, 237, 1);
+	position: fixed;
+	right: 20%;
+	top: 15%;
+	background-color: rgb(142, 140, 140);
+}
+
+h1#info {
+	text-decoration: underline;
+}
+
+h1#info, .notSelectedProBar {
+	text-align: center;
+}
+
+div#role label {
+	font-size: xx-large;
+}
+
+div>p, p#infoNextButtons, div#personalInfo label input+span {
+	color: #990000;
+	font-style: italic;
+	font-size: small;
+	font-weight: bolder;
+}
+
+div>p, p#infoNextButtons, div#personalInfo label input+span,
+	.selectedProBar, div#role label:hover, div#role input:checked+span {
+	text-decoration: underline;
+}
+
+div#progressBar, div#buttonNext, div#buttonNext p, div#role, div#personalInfo
+	{
+	position: absolute;
+}
+
+div#progressBar {
+	width: 25%;
+	right: 100.5%;
+	background-color: rgb(120, 119, 119);
+	top: 0;
+	border: 2px solid rgba(127, 225, 240, 0.8);
+}
+
+.notSelectedProBar {
+	text-decoration: none;
+}
+
+.completedProBar {
+	background-color: #02a002;
+	text-align: left;
+}
+
+.selectedProBar {
+	background-color: rgb(173, 172, 172);
+	text-align: right;
+}
+
+div#buttonNext {
+	top: 78%;
+	right: 2%;
+}
+
+div#buttonNext p {
+	width: 120%;
+}
+
+div#role {
+	right: 40%;
+	top: 28%;
+}
+
+div#personalInfo, div#buttonNext p {
+	right: 25%;
+}
+
+div#personalInfo, div#role, input[type=radio] {
+	display: none;
+}
+
+@media screen and (max-width: 1160px) {
+	form#form {
+		width: 70%;
+		height: 60%;
+		right: 17%;
+		top: 22%;
+	}
+	div#progressBar {
+		width: 100%;
+		right: -0.5%;
+		top: -8.5%;
+	}
+	div#progressBar h1 {
+		display: inline;
+		margin: 28px;
+	}
+	div#progressBar hr {
+		display: none;
+	}
+	div#personalInfo {
+		right: 20%;
+		top: 20%;
+	}
+}
+
+@media screen and (max-width: 773px) {
+	form#form {
+		width: 80%;
+	}
+	form#form, div#buttonNext {
+		right: 10%;
+	}
+	div#progressBar h1 {
+		font-size: 90%;
+		margin-left: 3%;
+	}
+	h1#info {
+		font-size: 140%;
+	}
+	div#personalInfo input {
+		display: block;
+	}
+	div>p, p#infoNextButtons, div#personalInfo label input+span {
+		font-size: 60%;
+	}
+	div#buttonNext button {
+		font-size: 70%;
+		width: 70px;
+		height: 40px;;
+	}
+	div#buttonNext {
+		top: 82%;
+		margin-right: -15%;
+	}
+	div#buttonNext p {
+		right: 25%;
+		width: 120%;
+	}
+	div#role {
+		right: 30%;
+		top: 20%;
+	}
+	div#personalInfo {
+		overflow: scroll;
+		height: 300px;
+		top: 15%;
+		right: 35%;
+	}
+}

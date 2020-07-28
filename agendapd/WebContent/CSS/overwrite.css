@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+.visibleBlock {
+	display: block;
+}
+
+.visibleNone {
+	display: none;
+}
+
+.visibleInLine{
+	display: inline;
+}
+
+.error {
+	background-color: red;
+}

@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+form#formFile {
+	left: 20%;
+	top: 10%;
+}
+
+form#formFile button {
+	width: 50px;
+	height: 20px;
+}
+
+form#settings {
+	height: 125%;
+}
+
+@media screen and (max-width: 769px) {
+	form#formFile {
+		top: 4.5%;
+		left: 22%;
+	}
+	form#patients {
+		left: 25%;
+		width: 72%;
+	}
+}
+
+@media screen and (max-width: 415px) {
+	form#formFile {
+		top: 10%;
+		left: 7%;
+	}
+	form#patients {
+		left: 5%;
+		top: 23%;
+		width: 90%;
+	}
+}

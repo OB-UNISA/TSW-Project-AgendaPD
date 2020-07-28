@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+h1 {
+	background-color: orange;
+	text-align: center;
+}
+
+header {
+	background-color: grey;
+	font-size: x-large;
+	font-weight: bolder;
+}
+
+article {
+	text-align: justify;
+}
+
+h1, header, article p {
+	padding-left: 5px;
+	padding-right: 5px;
+}

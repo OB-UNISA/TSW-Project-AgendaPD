@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+.width {
+	width: 200px;
+}
+
+input[name="ping"] {
+	font-weight: bold;
+}

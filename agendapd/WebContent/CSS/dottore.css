@@ -1,0 +1,221 @@
+@charset "UTF-8";
+
+div#sideBar {
+	float: left;
+	border: 2px solid rgba(127, 225, 240, 0.8);
+	background-color: rgb(120, 119, 119);
+}
+
+div#sideBar h1 {
+	font-size: 30px;
+	padding: 3px 3px;
+}
+
+div#sideBar h1, form#patients td {
+	text-align: center;
+}
+
+div#sideBar h1:hover, div#sideBar h1.selected {
+	text-decoration: underline;
+}
+
+form#personalInfo label, form#iot label, form#settings label, form#secretary,
+	form#patients label, form#news header, form#stats {
+	font-size: x-large;
+}
+
+form#personalInfo, form#iot, form#news, form#settings, form#secretary,
+	form#stats {
+	left: 48%;
+}
+
+form#personalInfo, form#iot, form#news, form#settings, form#secretary,
+	form#patients, form#personalInfo button, form#iot button, form#stats,
+	form#formFile {
+	position: absolute;
+}
+
+form#personalInfo, form#iot, form#news, form#settings, form#secretary,
+	form#patients, form#stats {
+	top: 15%;
+}
+
+form#patients {
+	left: 25%;
+}
+
+form#secretary {
+	height: 125%;
+}
+
+form#news {
+	left: 30%;
+}
+
+form#news textarea {
+	height: 80px;
+	width: 600px;
+}
+
+form#personalInfo button, form#iot button {
+	top: 90%;
+	left: 100%;
+}
+
+form#news button {
+	top: 20%;
+}
+
+form#news header {
+	background-color: grey;
+	font-weight: bold;
+}
+
+form#news header span {
+	font-weight: bolder;
+	color: red;
+	background-color: #494949;
+}
+
+form#news header span:hover {
+	background-color: black;
+}
+
+form#news article {
+	text-align: justify;
+	width: 800px;
+}
+
+form#news article, div#divPatients {
+	overflow: auto;
+}
+
+form#patients table {
+	border: 2px solid rgba(178, 229, 237, 1);
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+div#divPatients {
+	width: 900px;
+}
+
+form#patients th, .button:hover {
+	background-color: #808080;
+}
+
+form#patients th, form#patients td {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+form#patients tr:nth-child(even) {
+	background-color: #51a2a2
+}
+
+form#patients tr:nth-child(even):hover {
+	background-color: #82c1c1
+}
+
+form#patients tr:nth-child(odd):hover {
+	background-color: #c0c0c0;
+}
+
+@media screen and (max-width: 769px) {
+	form#personalInfo, form#iot {
+		left: 50%;
+	}
+	form#personalInfo, form#iot, form#patients {
+		top: 10%;
+	}
+	form#personalInfo button, form#iot button {
+		position: absolute;
+		top: 110%;
+		left: 20%;
+	}
+	form#news textarea {
+		height: 80px;
+		width: 400px;
+	}
+	form#news {
+		left: 40%
+	}
+	form#news article {
+		width: 450px;
+	}
+	form#patients {
+		left: 38%;
+	}
+	div#divPatients {
+		width: 100%;
+	}
+	form#patients {
+		width: 60%;
+	}
+	div#divPatients table th span {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	form#personalInfo, form#iot {
+		left: 30%;
+	}
+	form#patients {
+		width: 100.1%;
+	}
+	form#personalInfo label input, form#personalInfo label+br, form#iot label input,
+		form#iot label+br, form#news span#spanSpace, form#stats input {
+		display: block;
+	}
+	div#sideBar h1 span, div#sideBar hr, div#divPatients table th span, form#stats br:nth-child(odd)
+		{
+		display: none;
+	}
+	div#sideBar {
+		float: none;
+		position: fixed;
+		top: 90%;
+		left: 4%;
+		z-index: 2;
+	}
+	div#sideBar h1 {
+		display: inline;
+		font-size: x-large;
+		margin-left: 15px;
+	}
+	div#sideBar h1.selected, div#sideBar h1 {
+		text-decoration: none;
+	}
+	form#personalInfo button, form#iot button, form#patients {
+		left: 0%;
+	}
+	form#iot button {
+		top: 105%;
+	}
+	form#personalInfo button {
+		top: 83%
+	}
+	form#personalInfo, form#news {
+		height: 125%;
+	}
+	form#settings label {
+		font-size: 120%;
+	}
+	form#news textarea {
+		height: 80px;
+		width: 300px;
+	}
+	form#news, form#settings, form#secretary, form#stats {
+		left: 5%
+	}
+	form#news article, form#news header {
+		width: 340px;
+	}
+	form#news header, form#news article, div#divPatients table tr {
+		font-size: 90%;
+	}
+	form#news span#spanSpace {
+		height: 100px;
+	}
+}

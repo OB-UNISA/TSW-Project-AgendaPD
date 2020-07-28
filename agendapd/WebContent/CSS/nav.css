@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+body {
+	background-color: rgb(174, 169, 169);
+}
+
+span#logo {
+	top: 1%;
+	color: rgba(255, 255, 255, 0.1);
+}
+
+span#logo {
+	position: fixed;
+	left: 50%;
+}
+
+span#logo, a.notSelected:link, nav ul li a:link {
+	font-weight: bold;
+}
+
+nav {
+	margin: 4px 8px 8px 6px;
+	padding-top: 5px;
+	position: fixed;
+	width: 98%;
+	top: 0;
+	height: 25px;
+	z-index: 2;
+}
+
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+}
+
+nav ul li {
+	display: inline;
+	padding: 0 10px 0 10px;
+}
+
+.backGroundGradNav {
+	background-image: linear-gradient(to right, rgba(255, 255, 255, 0.15),
+		rgba(0, 0, 0, 0.1));
+}
+
+.backGroundGradNav:hover {
+	background-image: linear-gradient(to right, rgba(255, 255, 255, 0.3),
+		rgba(0, 0, 0, 0.2));
+}
+
+.shadowNav, button:hover {
+	box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.borderNav {
+	border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.borderNav:hover {
+	border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.linkNav:link {
+	text-decoration: none;
+}
+
+.selected {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+a.notSelected:link, nav ul li a:link, .linkNav:visited {
+	color: white;
+}
+
+.notSelected a:hover, a.notSelected:hover {
+	color: rgb(178, 229, 237);
+}
+
+table#listProfiles {
+	display: none;
+}
+
+li#iotDoc a {
+	font-weight: normal;
+}
+
+li#iotDoc a:hover {
+	color: orange;
+}
+
+li#profileName {
+	position: absolute;
+	right: 10%;
+}
+
+button {
+	border: 1px solid black;
+	width: 150px;
+	height: 60px;
+	margin-right: 40px;
+}
+
+button.firstButton {
+	background-color: rgba(178, 229, 237, 0.8);
+}
+
+button.secondButton {
+	background-color: rgba(127, 225, 240, 0.8);
+}
+
+button.firstButton:hover {
+	background-color: rgba(178, 229, 237, 1);
+}
+
+button.seconButton:hover {
+	background-color: rgba(127, 225, 240, 1);
+}
+
+table#listProfiles {
+	position: absolute;
+	right: 5%;
+}
+
+table#listProfiles button.firstButton {
+	background-color: rgba(178, 229, 237, 1);
+}
+
+table#listProfiles button.secondButton {
+	background-color: rgba(127, 225, 240, 1);
+}
+
+table#listProfiles button {
+	font-size: x-small;
+	width: 95px;
+	height: 40px;
+	margin-right: 0;
+}
+
+table#listProfiles button.ex {
+	width: 35px;
+	font-size: medium;
+	font-weight: bold;
+	height: 35px;
+}
+
+table#listProfiles button span {
+	font-size: xx-small;
+}
+
+@media screen and (max-width: 415px) {
+	nav ul li a span {
+		display: none;
+	}
+	span#logo {
+		display: none;
+	}
+}

@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+div#userPass label {
+	font-size: xx-large;
+	text-align: center;
+}
+
+div#userPass>p {
+	color: #990000;
+	font-style: italic;
+	font-size: small;
+	font-weight: bolder;
+	text-decoration: underline;
+	margin: 0;
+}
+
+div#userPass {
+	right: 30%;
+	top: 30%;
+	position: absolute;
+}
+
+@media screen and (max-width: 580px) {
+	div#userPass label {
+		font-size: 140%;
+	}
+	div#userPass input {
+		display: block;
+	}
+	div#userPass {
+		left: 20%;
+		top: 25%;
+	}
+	div#userPass>p {
+		font-size: 60%;
+	}
+}
