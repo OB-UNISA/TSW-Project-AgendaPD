@@ -1,0 +1,1052 @@
+<TaskerData sr="" dvi="1" tv="5.9.2">
+	<dmetric>1080.0,2020.0</dmetric>
+	<Project sr="proj0" ve="2">
+		<cdate>1591352432615</cdate>
+		<mdate>1594359315277</mdate>
+		<name>Base</name>
+		<scenes>HTML Popup,Log,Code,Popup,Console</scenes>
+		<tids>2,4,5,8,9,10,11,12,13,14,15,6,7,3</tids>
+		<Img sr="icon" ve="2">
+			<nme>mw_action_home</nme>
+		</Img>
+	</Project>
+	<Scene sr="sceneCode">
+		<cdate>1591357902097</cdate>
+		<edate>1592385401240</edate>
+		<gridSize>10</gridSize>
+		<heightLand>-1</heightLand>
+		<heightPort>2019</heightPort>
+		<nme>Code</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>1080</widthPort>
+		<TextElement sr="elements0" ve="3">
+			<clickTask>-936</clickTask>
+			<flags>5</flags>
+			<geom>20,4,1039,2010,15,177,643,328</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">%TextFileCode</Str>
+			<Int sr="arg2" val="8"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="2"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="5"/>
+				<Str sr="arg5" ve="3">#FFBEBEBE</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF000000</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">Popup</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneConsole">
+		<cdate>1592385407201</cdate>
+		<edate>1592391210815</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>1456</heightPort>
+		<nme>Console</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>907</widthPort>
+		<TextElement sr="elements0" ve="3">
+			<flags>4</flags>
+			<geom>0,0,906,1455,0,29,857,1421</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">console&gt; %ConsoleLog</Str>
+			<Int sr="arg2" val="18"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF12931A</Str>
+			<Str sr="arg5" ve="3">Tasker/Font/SourceCodePro-Light.ttf</Str>
+			<Int sr="arg6" val="5"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#FF000000</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+	</Scene>
+	<Scene sr="sceneHTML Popup">
+		<cdate>1591353924559</cdate>
+		<edate>1591358036513</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>562</heightPort>
+		<nme>HTML Popup</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>675</widthPort>
+		<WebElement sr="elements0" ve="2">
+			<flags>5</flags>
+			<geom>0,55,675,505,0,0,675,562</geom>
+			<Str sr="arg0" ve="3">Web1</Str>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6"/>
+			<Int sr="arg7"/>
+		</WebElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#00000000</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">HTML Popup</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneLog">
+		<cdate>1591357471062</cdate>
+		<edate>1592484370463</edate>
+		<gridSize>10</gridSize>
+		<heightLand>-1</heightLand>
+		<heightPort>322</heightPort>
+		<nme>Log</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>666</widthPort>
+		<TextElement sr="elements0" ve="3">
+			<clickTask>2</clickTask>
+			<flags>4</flags>
+			<geom>3,0,658,121,63,27,378,441</geom>
+			<longclickTask>2</longclickTask>
+			<strokeTask>2</strokeTask>
+			<Str sr="arg0" ve="3">Time</Str>
+			<Str sr="arg1" ve="3">%Time</Str>
+			<Int sr="arg2" val="15"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+			<StrokeFilter sr="filter2"/>
+		</TextElement>
+		<TextElement sr="elements1" ve="3">
+			<flags>4</flags>
+			<geom>101,52,503,200,260,360,58,309</geom>
+			<Str sr="arg0" ve="3">Text2</Str>
+			<Str sr="arg1" ve="3">Response:</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements2" ve="3">
+			<flags>4</flags>
+			<geom>101,160,503,162,260,360,58,309</geom>
+			<Str sr="arg0" ve="3">Text21</Str>
+			<Str sr="arg1" ve="3">Code:</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements3" ve="3">
+			<flags>4</flags>
+			<geom>209,279,306,43,228,117,224,96</geom>
+			<Str sr="arg0" ve="3">Text4</Str>
+			<Str sr="arg1" ve="3">Latenza=%Latency ms</Str>
+			<Int sr="arg2" val="8"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements4" ve="3">
+			<flags>4</flags>
+			<geom>328,101,326,103,347,101,276,103</geom>
+			<Str sr="arg0" ve="3">Text5</Str>
+			<Str sr="arg1" ve="3">%Info</Str>
+			<Int sr="arg2" val="13"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%InfoColor</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements5" ve="3">
+			<flags>4</flags>
+			<geom>229,200,384,79,0,0,276,101</geom>
+			<Str sr="arg0" ve="3">Text52</Str>
+			<Str sr="arg1" ve="3">%ResponseCode</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%InfoColor</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FAFD8E0B</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">Test</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="scenePopup">
+		<cdate>1591378238314</cdate>
+		<edate>1591382998920</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>562</heightPort>
+		<nme>Popup</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>675</widthPort>
+		<TextElement sr="elements0" ve="3">
+			<flags>4</flags>
+			<geom>13,0,661,162,6,0,294,72</geom>
+			<Str sr="arg0" ve="3">Title</Str>
+			<Str sr="arg1" ve="3">Title</Str>
+			<Int sr="arg2" val="28"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF80CBC4</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7"/>
+			<Int sr="arg8"/>
+		</TextElement>
+		<RectElement sr="elements1">
+			<flags>4</flags>
+			<geom>0,162,675,6,0,162,675,6</geom>
+			<Str sr="arg0" ve="3">Header</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#77333333</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements2" ve="3">
+			<clickTask>-936</clickTask>
+			<flags>5</flags>
+			<geom>15,177,643,328,15,177,643,328</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">Text</Str>
+			<Int sr="arg2" val="22"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8"/>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF000000</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">Popup</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Task sr="task10">
+		<cdate>1591368972624</cdate>
+		<edate>1594365027778</edate>
+		<id>10</id>
+		<nme>ChangeEnteredNumber</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>360</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%input
+Input
+The text that was inserted in the dialog&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">Inserire numero entrati</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">%EnteredIoT</Str>
+			<Int sr="arg4" val="120"/>
+			<Str sr="arg5" ve="3">3</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%EnteredIoT</Str>
+			<Str sr="arg1" ve="3">%input</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>mw_maps_directions_walk</nme>
+		</Img>
+	</Task>
+	<Task sr="task11">
+		<cdate>1591368972624</cdate>
+		<edate>1594365005219</edate>
+		<id>11</id>
+		<nme>ChangeSeatsNumber</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>360</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%input
+Input
+The text that was inserted in the dialog&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">Inserire numero entrati</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">%FreeSeatsIoT</Str>
+			<Int sr="arg4" val="120"/>
+			<Str sr="arg5" ve="3">3</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%FreeSeatsIoT</Str>
+			<Str sr="arg1" ve="3">%input</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>mw_action_event_seat</nme>
+		</Img>
+	</Task>
+	<Task sr="task12">
+		<cdate>1594357460275</cdate>
+		<edate>1594365205602</edate>
+		<id>12</id>
+		<nme>IncrementSeats</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>888</code>
+			<Str sr="arg0" ve="3">%FreeSeatsIoT</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">ModeChangeToSeats</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">IoTTest</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>mw_editor_format_indent_increase</nme>
+		</Img>
+	</Task>
+	<Task sr="task13">
+		<cdate>1594357460275</cdate>
+		<edate>1594364044505</edate>
+		<id>13</id>
+		<nme>IncrementEntered</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>888</code>
+			<Str sr="arg0" ve="3">%EnteredIoT</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">ModeChangeToEntered</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">IoTTest</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>mw_editor_format_indent_increase</nme>
+		</Img>
+	</Task>
+	<Task sr="task14">
+		<cdate>1594357460275</cdate>
+		<edate>1594365218183</edate>
+		<id>14</id>
+		<nme>DecreaseSeats</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>890</code>
+			<Str sr="arg0" ve="3">%FreeSeatsIoT</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">ModeChangeToSeats</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">IoTTest</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>mw_editor_format_indent_decrease</nme>
+		</Img>
+	</Task>
+	<Task sr="task15">
+		<cdate>1594357460275</cdate>
+		<edate>1594364036567</edate>
+		<id>15</id>
+		<nme>DecreaseEntered</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>890</code>
+			<Str sr="arg0" ve="3">%EnteredIoT</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">ModeChangeToEntered</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">IoTTest</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>mw_editor_format_indent_decrease</nme>
+		</Img>
+	</Task>
+	<Task sr="task2">
+		<cdate>1591352809468</cdate>
+		<edate>1594365185442</edate>
+		<id>2</id>
+		<nme>IoTTest</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Disable</lhs>
+					<op>0</op>
+					<rhs>FALSE</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>410</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">Tasker/JS/time.js</Str>
+			<Str sr="arg1" ve="3">var time = new Date();
+
+var timeStr = time.getDate() + "-" + (time.getMonth() + 1) + "-" + time.getFullYear() + " -- " + time.getHours() + ":" + time.getMinutes() + ":" + time.getSeconds() + ":" + time.getMilliseconds();
+
+setGlobal("Time", timeStr);
+setGlobal("TimeMs", time.getTime().toString());</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>131</code>
+			<Str sr="arg0" ve="3">Tasker/JS/jInfo.js</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%ResponseCode</lhs>
+					<op>7</op>
+					<rhs>399</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%Info</lhs>
+					<op>0</op>
+					<rhs>NONE</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%InfoColor</Str>
+			<Str sr="arg1" ve="3">#FFFF0000</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ResponseCode</lhs>
+					<op>2</op>
+					<rhs>*http_response_code</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ResponseCode</Str>
+			<Str sr="arg1" ve="3">503</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%InfoColor</Str>
+			<Str sr="arg1" ve="3">#FF00FF00</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>131</code>
+			<Str sr="arg0" ve="3">Tasker/JS/latency.js</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>410</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">Tasker/JS/latency.js</Str>
+			<Str sr="arg1" ve="3">var time = new Date();
+var timePast = global("TimeMs");
+var latency = time.getTime() - timePast;
+
+setGlobal("Latency", latency);</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">Log</Str>
+			<Int sr="arg1" val="3"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="10"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="0"/>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">ResetIoTVars</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Disable</Str>
+			<Str sr="arg1" ve="3">FALSE</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>410</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">Tasker/JS/jInfo.js</Str>
+			<Str sr="arg1" ve="3">var jInfo = JSON.parse(global("Response"));
+setGlobal("Info", jInfo.info);</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>410</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">Tasker/JS/jsonObjLogin.js</Str>
+			<Str sr="arg1" ve="3">var idIoT = global("IdIoT");
+var passIoT = global("PassIoT");
+var enteredIoT = global("EnteredIoT");
+var freeSeatsIoT = global("FreeSeatsIoT");
+
+var login = { 
+ id: idIoT, 
+ pass: passIoT, 
+ entered: enteredIoT,
+ freeSeats: freeSeatsIoT
+};
+
+var jsonLogin = JSON.stringify(login);
+setGlobal("JsonLogin", jsonLogin);</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>131</code>
+			<Str sr="arg0" ve="3">Tasker/JS/JsonObjLogin.js</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>131</code>
+			<Str sr="arg0" ve="3">Tasker/JS/time.js</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>339</code>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_data
+Data
+Data that the server responded from the HTTP request.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_file_output
+File Output
+Will always contain the file's full path even if you specified a directory as the File to save.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_response_code
+Response Code
+The HTTP Code the server responded&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_headers()
+Response Headers
+The HTTP Headers the server sent in the response. Each header is in the 'key:value' format&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%http_response_length
+Response Length
+The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3">%Protocol%IPserver%Port%Path%Path_A?mode=%Mode</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3">%JsonLogin</Str>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="10"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Response</Str>
+			<Str sr="arg1" ve="3">%http_data</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ResponseCode</Str>
+			<Str sr="arg1" ve="3">%http_response_code</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>mw_notification_tap_and_play</nme>
+		</Img>
+	</Task>
+	<Task sr="task3">
+		<cdate>1592381663693</cdate>
+		<edate>1593676245724</edate>
+		<id>3</id>
+		<nme>consoleLog</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>410</code>
+			<Str sr="arg0" ve="3">Tasker/console/consoleLog.js</Str>
+			<Str sr="arg1" ve="3">function consoleLog(str){
+ setGlobal("ConsoleLog", str);
+};
+
+var x = "10";
+var y = "2";
+var z = x - y;
+
+consoleLog(z);</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>131</code>
+			<Str sr="arg0" ve="3">Tasker/console/consoleLog.js</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">Console</Str>
+			<Int sr="arg1" val="3"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>mw_action_assignment</nme>
+		</Img>
+	</Task>
+	<Task sr="task4">
+		<cdate>1591368874932</cdate>
+		<edate>1592726351340</edate>
+		<id>4</id>
+		<nme>IoTProtocolChangeToHTTP</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Protocol</Str>
+			<Str sr="arg1" ve="3">http://</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Port</Str>
+			<Str sr="arg1" ve="3">:8080</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>mw_notification_wifi</nme>
+		</Img>
+	</Task>
+	<Task sr="task5">
+		<cdate>1591368874932</cdate>
+		<edate>1592726484141</edate>
+		<id>5</id>
+		<nme>IoTProtocolChangeToHTTPS</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Protocol</Str>
+			<Str sr="arg1" ve="3">https://</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Port</Str>
+			<Str sr="arg1" ve="3">:8443</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>mw_hardware_security</nme>
+		</Img>
+	</Task>
+	<Task sr="task6">
+		<cdate>1591368972624</cdate>
+		<edate>1594364467332</edate>
+		<id>6</id>
+		<nme>ChangeIP</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>360</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%input
+Input
+The text that was inserted in the dialog&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">Inserire nuovo IP</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">%IPserver</Str>
+			<Int sr="arg4" val="120"/>
+			<Str sr="arg5" ve="3">3</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%IPserver</Str>
+			<Str sr="arg1" ve="3">%input</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>mw_hardware_device_hub</nme>
+		</Img>
+	</Task>
+	<Task sr="task7">
+		<cdate>1591422702006</cdate>
+		<edate>1594048718697</edate>
+		<id>7</id>
+		<nme>ResetIoTVars</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%JsonLogin</Str>
+			<Str sr="arg1" ve="3">%DefaultError</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Response</Str>
+			<Str sr="arg1" ve="3">%DefaultError</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ResponseCode</Str>
+			<Str sr="arg1" ve="3">%DefaultError</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Info</Str>
+			<Str sr="arg1" ve="3">%DefaultError</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Time</Str>
+			<Str sr="arg1" ve="3">%DefaultError</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%TimeSec</Str>
+			<Str sr="arg1" ve="3">%DefaultError</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%TimeMs</Str>
+			<Str sr="arg1" ve="3">%DefaultError</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Latency</Str>
+			<Str sr="arg1" ve="3">%DefaultError</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>mw_action_history</nme>
+		</Img>
+	</Task>
+	<Task sr="task8">
+		<cdate>1594049277472</cdate>
+		<edate>1594365031527</edate>
+		<id>8</id>
+		<nme>ModeChangeToEntered</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Mode</Str>
+			<Str sr="arg1" ve="3">entered</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>mw_maps_directions_walk</nme>
+		</Img>
+	</Task>
+	<Task sr="task9">
+		<cdate>1594049277472</cdate>
+		<edate>1594124515213</edate>
+		<id>9</id>
+		<nme>ModeChangeToSeats</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Mode</Str>
+			<Str sr="arg1" ve="3">seats</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>mw_action_event_seat</nme>
+		</Img>
+	</Task>
+</TaskerData>
